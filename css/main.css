@@ -173,14 +173,12 @@
 .subtitulo {
 	font-size: 0.5em
 }
-
-
-
-
-
-
-
-
+.texto-carousel{
+	font-family: 'CenturyGothicc' !important;
+	padding-top: 0px !important;
+}
+#body-carousel {
+	font-size: 0.5em;
 
 
 
