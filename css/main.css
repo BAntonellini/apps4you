@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "CenturyGothicc";
+    src: url('../font/CenturyGothic.ttf') format("truetype");
+}
+
+.row {
+	max-width: 100vw !important;
+}
+
+#wrapper-carousel {
+	width: 1000px;
+	height: 320px;
+	position: relative;
+	margin: 0 auto !important;
+	margin-top: 4em !important;
+	overflow: hidden;
+}
+ 
+#carousel-title {
+	width: 350px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#carousel-title p {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #999;
+	width: 325px;
+	height: 75px;
+	margin: 0;
+	padding: 25px 0 0 25px;
+	float: left;
+}
+#carousel-small,
+#carousel-large {
+	position: absolute;
+}
+#carousel-small {
+	width: 300px;
+	height: 220px;
+	bottom: 0;
+	left: 0;
+}
+#carousel-large {
+	width: 800px;
+	height: 300px;
+	top: 0;
+	right: 0;
+}
+#carousel-large img {
+	display: block;
+	margin-left: 10px;
+	float: left;
+}
+#carousel-small img {
+	display: block;
+	margin-right: 10px;
+	float: right;
+}
+#navi {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#navi a {
+	border: 1px solid #999;
+	background-color: #fff;
+	display: block;
+	width: 8px;
+	height: 8px;
+	margin: 0 0 0 4px;
+	float: left;
+}
+#navi a:hover {
+	background-color: #ccc;
+}
+#navi a.selected {
+	background-color: #999;
+}
+#navi a span {
+	display: none;
+}
+.slicer {
+	position: absolute;
+	top: 0;
+	left: 155px;
+}
+
+.navbar, .dropdown-menu {
+	background-color: #00a99d !important;
+}
+
+.navbar-nav li a{
+	color: white !important;
+}
+.navbar-nav li a:hover, .navbar-nav li a:focus {
+	background-color: #00a99d !important;
+}
+
+.dropdown-menu li a {
+	color: black !important;
+} 
+
+#que {
+	margin-top: 4em;
+	padding-top: 1em;
+	background-color: #424242 !important;
+}
+#que h2, #que p {
+	color: white !important;
+}
+#que p {
+	text-align: justify;
+	font-size: 1.2em;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+#chevron {
+	font-size: 1.4em;
+	color: white;
+	margin-bottom: 1em;
+}
+.icono-app {
+	max-width: 200px !important;
+}
+#productos {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+.texto-app-desc {
+	margin-bottom: 0px !important;
+	font-size: 1.2em;
+}
+.titulo-app {
+	font-weight: bold !important;
+}
+.container-fluid-full {
+	padding-left: 0px !important; 
+	padding-right: 0px !important;
+}
+.col-plan {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+} 
+.img-plan {
+	max-height: 600px !important;
+} 
+#contacto {
+	padding-top: 4em;
+	max-width: 900px !important;
+	margin-bottom: 4em;
+}
+#wrapper-contacto {
+	margin-top: 1em;
+}
+#wrapper-social {
+	padding-top: 4em;
+}
+.icono-social{
+	display: inline-block !important;
+
+}
+.icono-social a i {
+	color: #00a99d;
+	font-size: 2em;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.subtitulo {
+	font-size: 0.5em
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map-container{
+	overflow:hidden;
+	position:relative;
+	height:0;
+}
+.map-container iframe{
+	left:0;
+	top:0;
+	height:400px;
+	width:100vw;
+	position:absolute;
+}
+
+
+
+
+
+
+
+
+html, body {
+	font-family: 'CenturyGothicc' !important;
+}
