@@ -93,6 +93,24 @@ $(function() {
 			easing: scrollEasing
 		}
 	});
+
+//	subtitles carousel, controlled by the small images carousel
+	$('#carousel-subtitle').carouFredSel({
+		width: 300,
+		height: 100,
+		items: {
+			visible: 1,
+			width: 350,
+			height: 100
+		},
+		align: false,
+		auto: false,
+		scroll: {
+			fx: 'directscroll',
+			duration: scrollDuration,
+			easing: scrollEasing
+		}
+	});
  
 	//	tweek the pagination to always scroll forward
 	$('#navi a')

@@ -4,7 +4,7 @@
 }
 
 .row {
-	max-width: 100vw !important;
+	max-width: 99vw !important;
 }
 
 #wrapper-carousel {
@@ -24,14 +24,31 @@
 	left: 0;
 }
 #carousel-title p {
-	font-family: arial, helvetica, sans-serif;
+	font-family: CenturyGothicc;
 	font-size: 30px;
 	font-weight: bold;
 	color: #999;
 	width: 325px;
 	height: 75px;
 	margin: 0;
-	padding: 25px 0 0 25px;
+	padding: 0px 0 0 25px;
+	float: left;
+}
+#carousel-subtitle {
+	width: 350px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#carousel-subtitle p {
+	font-family: CenturyGothicc;
+	font-size: 20px;
+	color: #999;
+	width: 325px;
+	height: 75px;
+	margin: 0;
+	padding: 35px 0 0 25px;
 	float: left;
 }
 #carousel-small,
@@ -155,7 +172,7 @@
 	margin-bottom: 4em;
 }
 #wrapper-contacto {
-	margin-top: 1em;
+	margin-top: 4em;
 }
 #wrapper-social {
 	padding-top: 4em;
@@ -173,12 +190,14 @@
 .subtitulo {
 	font-size: 0.5em
 }
-.texto-carousel{
-	font-family: 'CenturyGothicc' !important;
-	padding-top: 0px !important;
-}
-#body-carousel {
-	font-size: 0.5em;
+
+
+
+
+
+
+
+
 
 
 
