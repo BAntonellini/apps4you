@@ -6,12 +6,20 @@
 .row {
 	max-width: 99vw !important;
 }
-
+#wrapper-video {
+	padding: 0px 0px;
+	display: block;
+}
+.video{
+	padding-top: 1em;
+	height: 40em;
+	width: 100%;
+}
 #wrapper-carousel {
 	width: 1000px;
 	height: 320px;
 	position: relative;
-	margin: 0 auto !important;
+	margin: 0 auto 2em auto !important;
 	margin-top: 4em !important;
 	overflow: hidden;
 }
@@ -122,8 +130,7 @@
 } 
 
 #que {
-	margin-top: 4em;
-	padding-top: 1em;
+
 	background-color: #424242 !important;
 }
 #que h2, #que p {
@@ -175,7 +182,9 @@
 	margin-top: 4em;
 }
 #wrapper-social {
-	padding-top: 4em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	/*padding-top: 1em;*/
 }
 .icono-social{
 	display: inline-block !important;
@@ -220,6 +229,32 @@
 	position:absolute;
 }
 
+#wrapper-gris {
+	height: 35px !important;
+	background-color: #424242
+}
+
+#m-blanca {
+	margin-top: 0.5em !important;
+	display: inline-block !important;
+	vertical-align: middle;
+	float: none;
+	max-height: 15px !important;
+}
+
+#texto-powered {
+	font-size: 0.85em;
+	margin-top: 0.5em !important;
+	display: inline-block !important;
+	vertical-align: middle;
+	float: none;
+	color: white !important;
+	margin-bottom: 0px !important;
+}
+#texto-powered a {	
+	color: white;
+	text-decoration: none;
+}
 
 
 
